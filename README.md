@@ -1,24 +1,26 @@
-# Getting started with Sonic Pi
+#Débutez avec Sonic Pi 
 
-Sonic Pi is an open source programming environment, designed for creating new sounds with code in a live coding environment; it was developed by Dr Sam Aaron. This resource will help get you started with the basics of Sonic Pi.
+Sonic Pi est un environnement de programmation Open-Source crée par le Dr. Sam Aaron, conçu pour crée de nouveaux sons avec du code produit en direct, cette documentation va vous apprendre les bases de Sonic Pi.
+
 
 ![](cover.png)
 
-## Requirements
+## REQUIS
 
-As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need:
+Bien Sûr, vous avez besoin d'un Raspberry Pi et d'une carte SD équipé de Raspbian mais vous aurez également besoin de: 
 
-### Hardware
+### Matériel 
 
-- 1 x Speaker or headphones with a 3.5mm jack
+-haut-parleurs ou un Casque/écouteurs avec une prise Jack 3.5mm
 
-### Software
+### Logiciels
 
 - Sonic Pi v2
 
 ## Worksheet
 
 You will need the following worksheet to get started:
+Vous allez avoir besoin des pages suivantes pour commencer :
 
 - [The worksheet](worksheet.md)
 - [The second worksheet](worksheet-2.md)
