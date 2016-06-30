@@ -1,28 +1,28 @@
-# Getting started with Sonic Pi 2
+# Débutez avec Sonic Pi 2
 
-Ever wanted to make funky music like Daft Punk or will.i.am but you're not sure how to hold a cello, let alone play it? Sonic Pi could get you there.
+Est-ce que vous avez souhaitez de faire de la musique funky comme Daft Punk ou will.i.am mais vous n'êtes pas sûrs comment tenir un cello, et le laisser jouer tout seul? Avec Sonic Pi vous allez y arriver.
 
-## First sounds with Sonic Pi
+## Premier sons avec Sonic Pi
 
 ![](images/interface1.png)
 
-This is the Sonic Pi interface; it has three main windows. The largest one is for writing your code, and we call it the Programming Panel. There is also an output panel that displays information about your program as it runs. When you click on the **help** button at the top of the window, the third panel appears along the bottom displaying help documentation. This contains information about different code you can try and use, as well as different synth sounds, samples, and much more.
+Cela est l'interface de Sonic Pi; il a trois fênetres principales. La plus grandes est celle où vous écrivez le code et on l'appelle le Tableau de Programme. Il y a aussi un tableau de sortie qui affiche l'information sur le programme qui se joue. Quand vous cliquez sur le bouton **aide** qui se trouve en haut de votre fênetre, le troisième tableau s'affiche ainsi que le bouton de la documentation d'aide. Cela contient de l'information sur les différents codes pour que vous puissiez l'essayer et l'utiliser, ainsi que les différents sons de synthé, samples et beaucoup plus.
 
-1. Launch Sonic Pi from the desktop or applications menu.
+1. Lancer Sonic Pi de votre bureau ou le menu d'applications.
 
-1. Select **Workspace 1** and type:
+2. Selectionnez **Workspace 1** et écrire:
 
 	```ruby
 	play 60
 	```
 	
-1. Click on the **play** icon at the top of the screen. What happens?
+3. Cliquez sur l'icône **play**  qui se trouve en haut de l'écran. Qu'est-ce que se passe?
 
-1. What happens if you type `pley 60` and click on the play icon?
+4. Qu'est-ce que se passe quand vous tapez `pley 60` et cliquez sur l'icône play?
 
-	This is an example of a bug in your code. In later activities, if the error panel displays text you will know that you have a bug that you need to fix. It could be that you have misspelt a word like `play`.
+	Cela est un exemple d'un bug du code. Dans les activités suivantes, si le tableau de l'erreur s'affiche vous saurez qu'il y a un bug que vous allez devoir réparer. Cela peut vouloir dire que vous avez mal écrit le mot `play`.
 
-1. Now type:
+5. Maintenant écrivez:
 
 	```ruby
 	play 60
@@ -30,18 +30,18 @@ This is the Sonic Pi interface; it has three main windows. The largest one is fo
 	play 69
 	```
 	
-1. Click on the play icon at the top of the screen. What happens?
+6. Clicquez sur l'icône play an haut de votre écrant. Qu'est-ce qui se passe?
 
-1. The computer is playing each note in sequence (one after the other), but it is happening so fast that to us they sound like they are playing at the same time.
+7. L'ordinateur joue chaque note dans une séquence (une après l'autre), mais cela se fait tellement rapidement que nous avons l'impression que les notes se jouent en même temps.
 
-	We need to tell the computer to pause between each note. We can do this by typing the following after each `play`:
+	Il faut dire à l'ordinateur de faire une pause entre chaque note. Nous pouvons faire cela en écrivant le suivant après chaquev `play`:
 
 	```ruby
 	sleep 1
 	```
-	The value entered after the word `sleep` represents time in seconds. Using the value 1 represents one second. What would you type for half a second?
+	La valeur entrée après chaque mot `sleep` represent le temps en secondes. La valeur 1 représent un second. Qu'est-ce que vous écririez pour un demi second?
 
-1. Now write a sequence of play and sleep to make a cool-sounding tune!
+8. Maintenant écrivez une séquence de play et sleep pour composer une musique cool!
 
 ## Loop a tune
 
