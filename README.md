@@ -26,7 +26,7 @@ Haut-parleurs ou un Casque/écouteurs (avec une prise Jack 3.5mm)
 
 ### Logiciels
 
-- Sonic Pi v2
+Sonic Pi v2.
 Il n’y a pas de logiciels supplémentaires à installer de plus que ce qui est déjà préinstallé avec Raspbian.
 
 ## Worksheet
