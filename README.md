@@ -1,21 +1,33 @@
 #Débutez avec Sonic Pi 
 
-Sonic Pi est un environnement de programmation Open-Source crée par le Dr. Sam Aaron, conçu pour crée de nouveaux sons avec du code produit en direct, cette documentation va vous apprendre les bases de Sonic Pi.
+Sonic Pi est un environnement de programmation Open-Source crée par le Dr. Sam Aaron, conçu pour explorer et enseigner les concepts de programmation à travers le processus de création de nouveaux sons. C’est un outil de travail qui met l’accent sur l’importance de la créativité dans le processus d’apprentissage en permettant aux usagers de découvrir le codage en fabriquant des mélodies.
 
+Ce logiciel est le résultat d’une étroite collaboration entre les professeurs d’Informatique du Royaume-Uni et les chercheurs de l’Université de Cambridge. Il a été utilisé avec beaucoup de succès dans de nombreux collèges anglais.
 
 ![](cover.png)
 
-## REQUIS
+## QU’EST-CE QUE L’ENFANT VA APPRENDRE 
+
+A travers cet outil de travail, l’enfant va apprendre :
+-Ce qu’est un Raspberry Pi, qu’elles sont ces principales caractéristiques et comment l’utiliser
+-Comment écrire un codage basé sur du texte pour produire une piste de musique
+-Les concepts informatiques :
+	-séquence d’instructions, les boucles et les instructions conditionnelles
+	-la structuration des données, la syntaxe de codage et la fonction des algorithmes
+	-réparer les bugs de codage et comprendre le processus de simultanéité des instructions
+
+## CE DONT VOUS ALLEZ AVOIR BESOIN
 
 Bien Sûr, vous avez besoin d'un Raspberry Pi et d'une carte SD équipé de Raspbian mais vous aurez également besoin de: 
 
 ### Matériel 
 
--haut-parleurs ou un Casque/écouteurs avec une prise Jack 3.5mm
+-haut-parleurs ou un Casque/écouteurs (avec une prise Jack 3.5mm)
 
 ### Logiciels
 
 - Sonic Pi v2
+Il n’y a pas de logiciels supplémentaires à installer de plus que ce qui est déjà préinstallé avec Raspbian.
 
 ## Worksheet
 
