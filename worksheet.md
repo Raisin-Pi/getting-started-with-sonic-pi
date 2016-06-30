@@ -1,6 +1,6 @@
 # Débutez avec Sonic Pi 2
 
-Est-ce que vous avez souhaitez faire de la musique funky comme Daft Punk ou will.i.am mais vous n'êtes pas sûrs comment tenir un cello, et le laisser jouer tout seul? Avec Sonic Pi vous allez y arriver.
+Avez-vous déjà eu l'envie de faire de la musique funky comme Daft Punk ou will.i.am mais vous n'êtes pas sûrs comment tenir un cello, et le laisser jouer tout seul? Avec Sonic Pi vous allez y arriver.
 
 ## Premiers sons avec Sonic Pi
 
