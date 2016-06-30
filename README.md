@@ -1,20 +1,20 @@
 #Débutez avec Sonic Pi 
 
-Sonic Pi est un environnement de programmation Open-Source crée par le Dr. Sam Aaron, conçu pour explorer et enseigner les concepts de programmation à travers le processus de création de nouveaux sons. C’est un outil de travail qui met l’accent sur l’importance de la créativité dans le processus d’apprentissage en permettant aux usagers de découvrir le codage en fabriquant des mélodies.
-
-Ce logiciel est le résultat d’une étroite collaboration entre les professeurs d’Informatique du Royaume-Uni et les chercheurs de l’Université de Cambridge. Il a été utilisé avec beaucoup de succès dans de nombreux collèges anglais.
+Sonic Pi est un environnement de programmation Open-Source, conçu pour créer de nouveaux sons avec du code dans un environmenemnt de live coding; il a été développé par Dr. Sam Aaron de l'Université de Cambridge. C’est un outil de travail qui met l’accent sur l’importance de la créativité dans le processus d’apprentissage en permettant aux usagers de découvrir le codage en fabriquant des mélodies. Cette ressource vous aidera à débuter avec les bases de Sonic Pi pour que vous créiez votre propre musique.
 
 ![](cover.png)
 
-## QU’EST-CE QUE L’ENFANT VA APPRENDRE 
+## CE QUE VOUS ALLEZ APPRENDRE 
 
-A travers cet outil de travail, l’enfant va apprendre :
--Ce qu’est un Raspberry Pi, qu’elles sont ces principales caractéristiques et comment l’utiliser
--Comment écrire un codage basé sur du texte pour produire une piste de musique
--Les concepts informatiques :
-	-séquence d’instructions, les boucles et les instructions conditionnelles
-	-la structuration des données, la syntaxe de codage et la fonction des algorithmes
-	-réparer les bugs de codage et comprendre le processus de simultanéité des instructions
+En suivant le tutoriel de Sonic Pi pour Rapsberry Pi vous allez apprendre :
+A créer de sons en écrivant du text dans Sonic Pi
+A mettre un son en boucle pour que ça se répète
+Ce que c'est les numéros de notes de MIDI et comment les convertir à des notes de musique
+Comment modifier le son en utilisant les différents synthés et samples 
+Comment jouer deux sons en même temps en utilisant des threads
+A jouer avec Sonic Pi en live coding
+Comment ajouter des effects et utiliser des parametres pour changer la façon dont les notes sonnent
+Comment utiliser la randomisation dans une composition
 
 ## CE DONT VOUS ALLEZ AVOIR BESOIN
 
