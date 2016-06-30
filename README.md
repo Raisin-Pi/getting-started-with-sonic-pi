@@ -18,12 +18,12 @@ A travers cet outil de travail, l’enfant va apprendre :
 
 ## CE DONT VOUS ALLEZ AVOIR BESOIN
 
-Bien Sûr, vous avez besoin d'un Raspberry Pi et d'une carte SD équipé de Raspbian mais vous aurez également besoin de: 
+Vous avez besoin d'un Raspberry Pi et d'une carte SD équipé de Raspbian. Vous aurez également besoin de: 
 
 ### Matériel 
 
--haut-parleurs ou un Casque/écouteurs (avec une prise Jack 3.5mm)
-![](cover.png)
+Haut-parleurs ou un Casque/écouteurs (avec une prise Jack 3.5mm)
+
 ### Logiciels
 
 - Sonic Pi v2
