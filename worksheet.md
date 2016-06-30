@@ -1,14 +1,14 @@
 # Débutez avec Sonic Pi 2
 
-Est-ce que vous avez souhaitez de faire de la musique funky comme Daft Punk ou will.i.am mais vous n'êtes pas sûrs comment tenir un cello, et le laisser jouer tout seul? Avec Sonic Pi vous allez y arriver.
+Est-ce que vous avez souhaitez faire de la musique funky comme Daft Punk ou will.i.am mais vous n'êtes pas sûrs comment tenir un cello, et le laisser jouer tout seul? Avec Sonic Pi vous allez y arriver.
 
-## Premier sons avec Sonic Pi
+## Premiers sons avec Sonic Pi
 
 ![](images/interface1.png)
 
-Cela est l'interface de Sonic Pi; il a trois fênetres principales. La plus grandes est celle où vous écrivez le code et on l'appelle le Tableau de Programme. Il y a aussi un tableau de sortie qui affiche l'information sur le programme qui se joue. Quand vous cliquez sur le bouton **aide** qui se trouve en haut de votre fênetre, le troisième tableau s'affiche ainsi que le bouton de la documentation d'aide. Cela contient de l'information sur les différents codes pour que vous puissiez l'essayer et l'utiliser, ainsi que les différents sons de synthé, samples et beaucoup plus.
+Cela est l'interface de Sonic Pi; il a trois fênetres principales. La plus grande est celle où vous écrivez le code et on l'appelle le Tableau de Programme. Il y a aussi un tableau de sortie qui affiche l'information sur le programme qui se joue. Quand vous cliquez sur le bouton **aide** qui se trouve en haut de votre fênetre, le troisième tableau s'affiche ainsi que le bouton de la documentation d'aide. Cela contient de l'information sur les différents codes pour que vous puissiez l'essayer et l'utiliser, ainsi que les différents sons de synthé, samples et beaucoup plus.
 
-1. Lancer Sonic Pi de votre bureau ou le menu d'applications.
+1. Lancer Sonic Pi de votre bureau ou de menu d'applications.
 
 2. Selectionnez **Workspace 1** et écrire:
 
@@ -16,9 +16,9 @@ Cela est l'interface de Sonic Pi; il a trois fênetres principales. La plus gran
 	play 60
 	```
 	
-3. Cliquez sur l'icône **play**  qui se trouve en haut de l'écran. Qu'est-ce que se passe?
+3. Cliquez sur l'icône **play** qui se trouve en haut de l'écran. Qu'est-ce qui se passe?
 
-4. Qu'est-ce que se passe quand vous tapez `pley 60` et cliquez sur l'icône play?
+4. Qu'est-ce qui se passe quand vous tapez `pley 60` et cliquez sur l'icône play?
 
 	Cela est un exemple d'un bug du code. Dans les activités suivantes, si le tableau de l'erreur s'affiche vous saurez qu'il y a un bug que vous allez devoir réparer. Cela peut vouloir dire que vous avez mal écrit le mot `play`.
 
@@ -30,16 +30,16 @@ Cela est l'interface de Sonic Pi; il a trois fênetres principales. La plus gran
 	play 69
 	```
 	
-6. Clicquez sur l'icône play an haut de votre écrant. Qu'est-ce qui se passe?
+6. Cliquez sur l'icône play en haut de votre écran. Qu'est-ce qui se passe?
 
 7. L'ordinateur joue chaque note dans une séquence (une après l'autre), mais cela se fait tellement rapidement que nous avons l'impression que les notes se jouent en même temps.
 
-	Il faut dire à l'ordinateur de faire une pause entre chaque note. Nous pouvons faire cela en écrivant le suivant après chaquev `play`:
+	Il faut dire à l'ordinateur de faire une pause entre chaque note. Pour ce faire on écrit le suivant après chaque `play`:
 
 	```ruby
 	sleep 1
 	```
-	La valeur entrée après chaque mot `sleep` represent le temps en secondes. La valeur 1 représent un second. Qu'est-ce que vous écririez pour un demi second?
+	La valeur entrée après chaque mot `sleep` représent le temps en secondes. La valeur 1 représent une seconde. Qu'est-ce que vous écririez pour une demi seconde?
 
 8. Maintenant écrivez une séquence de play et sleep pour composer une musique cool!
 
