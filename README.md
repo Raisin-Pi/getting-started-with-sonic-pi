@@ -23,7 +23,7 @@ Bien Sûr, vous avez besoin d'un Raspberry Pi et d'une carte SD équipé de Rasp
 ### Matériel 
 
 -haut-parleurs ou un Casque/écouteurs (avec une prise Jack 3.5mm)
-
+![](cover.png)
 ### Logiciels
 
 - Sonic Pi v2
