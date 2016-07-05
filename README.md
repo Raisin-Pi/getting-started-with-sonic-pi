@@ -7,13 +7,21 @@ Sonic Pi est un environnement de programmation Open-Source, conçu pour créer d
 ## CE QUE VOUS ALLEZ APPRENDRE 
 
 En suivant le tutoriel de Sonic Pi pour Rapsberry Pi vous allez apprendre :
+
 A créer de sons en écrivant du text dans Sonic Pi
+
 A mettre un son en boucle pour que ça se répète
-Ce que c'est les numéros de notes de MIDI et comment les convertir à des notes de musique
+
+Ce que les numéros de notes de MIDI et comment les convertir à des notes de musique
+
 Comment modifier le son en utilisant les différents synthés et samples 
+
 Comment jouer deux sons en même temps en utilisant des threads
+
 A jouer avec Sonic Pi en live coding
+
 Comment ajouter des effects et utiliser des parametres pour changer la façon dont les notes sonnent
+
 Comment utiliser la randomisation dans une composition
 
 ## CE DONT VOUS ALLEZ AVOIR BESOIN
