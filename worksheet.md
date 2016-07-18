@@ -43,13 +43,13 @@ Cela est l'interface de Sonic Pi; il a trois fênetres principales. La plus gran
 
 8. Maintenant écrivez une séquence de play et sleep pour composer une musique cool!
 
-## Loop a tune
+## Faire répéter un morceau
 
-Now you have mastered the basics of Sonic Pi, let's code a tune!
+Maintenant que vous avez compris les bases de Sonic Pi, allons coder une chanson!
 
-1. Select **Workspace 2**.
+1. Selectionner **Workspace 2**.
 
-2. Type the following code:
+2. Ecrivez le code suivant:
 
     ```ruby
     play 60
@@ -62,29 +62,29 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
     sleep 0.5
     ```
 
-3. Now click on the play icon at the top of the screen and it will play the first part of a tune. Can you tell what it is? 
+3. Maintenant cliquez sur l'icône play qui se trouve en haut de l'écran et il va jouer la première partie du morceau. Est-ce que vous savez ce que c'est? 
 
-	*Answer: Frère Jacques!*
+	*Réponse: Frère Jacques!*
 
-    This first section plays twice. How could you repeat it? You could type the same section out again, or we could start to introduce loops to your code.
+    Cette première partie doit se répéter. Comment on peut faire cela? Vous pourriez écrire cette partie une deuxième fois, ou vous pouvez commencez à utiliser la fonctionne de boucle dans votre code.
 
-4. At the top of your code, above the first `play 60`, type:
+4. Au début de votre code, avant le premier `play 60`, écrivez:
 
     ```ruby
     2.times do
     ```
 
-5. And at the bottom of your code, below `sleep 0.5`, type:
+5. Et à la fin de votre code, après `sleep 0.5`, écrivez:
 
     ```ruby
     end
     ```
 
-6. Click on the play icon at the top of the screen. What happens?
+6. Clicquez sur l'icône play en haut de l'écran. Qu'est-ce que se passe?
 
-    Let's play this part in Sonic Pi.
+    Allons jouer cette partie sur Sonic Pi.
 
-    In the example below, you can see that some lines of code are indented. This makes it easier to read your code, and check for any bugs if it does not work when you press the play button. You can press the space bar twice to indent a line of code.
+    Dans l'exemple ci-après, vous pouvez voir que quelques lignes de code sont découpés. Cela rend plus facile de lire le code, et de vérifier s'il y a des bugs quand si ça ne marche pas quand on clique sur play. Vous pouvez appuyer sur le barre d'espace deux fois pour découper une ligne de code.
 
     ```ruby
     2.times do
@@ -98,11 +98,11 @@ Now you have mastered the basics of Sonic Pi, let's code a tune!
       sleep 0.5
     end
     ```
-### Loop forever?
+### Répéter indéfiniment?
 
-Looping notes for a set number of times is certainly useful, but what if you want to loop your tune forever? 
+Répéter des notes pour un certain temps c'est certainement utile, mais comment il faut faire si on veut répéter un morceau indéfiniment? 
 
-Instead of using `2.times do` and `end` you can use `loop do` and `end`, like this:
+Au lieu d'utiliser `2.times do` et `end` vous pouvez utiliser `loop do` et `end`, comme ça:
 
 ```ruby
 loop do
@@ -111,21 +111,21 @@ loop do
 end
 ```      
     
-## MIDI notes and music notes
+## Notes MIDI et notes de musique
 
-The values that you have been typing after the word `play` represent notes; in fact, they are MIDI note numbers. This means we can translate songs played on a piano into Sonic Pi using a table like so:
+Les chiffres que vous écriviez après le mot `play` represent des notes; en effet, ce sont des chiffres de notes de MIDI. Cela veut dire que nous pouvons traduire des chansons jouées sur un piano en Sonic Pi en utilisant un tableau comme celui-ci:
 
-`C D E C` or `60 62 64 60` in MIDI notes.
+`C D E C` ou `60 62 64 60` en notes de MIDI.
 
-**Music Notes to MIDI Note Values**
+**Notes de musique en chiffres de notes de MIDI**
 
 | C       | D      | E     | F     | G     | A     | B     |
 | :-----: |:------:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 60      | 62     | 64    | 65    | 67    | 69    | 71    |
 
-This is quite a long process if you know the notes of the song you are trying to play. With Sonic Pi you are able to use standard sheet music notation too.
+Cela est une démarche assez longue si vous connaissez les notes de la chanson que vous essayez de jouer. Avec Sonic Pi vous êtes également capables d'utiliser la notation standard de partition.
 
-1. In a new workspace tab type:
+1. Dans un nouvel onglet d'espace de travail écrivez:
 
 	```ruby
 	play :c4
@@ -137,15 +137,15 @@ This is quite a long process if you know the notes of the song you are trying to
 	play :c4
 	sleep 0.5
 	```
-1. Press **play** to hear your tune. Does it sound the same as when you used MIDI notes?	
+1. Cliquez sur **play** pour écouter votre morceau. Est-ce que ça son pareil que quand vous avez utilisé des notes de MIDI?	
 
-## Change the sounds
+## Modifierer les sons
 
-It's time to make your tune sound more interesting! We can do this by changing the synthesizer sounds it is using. The default Sonic Pi synth is called `beep`.
+C'est le moment pour faire votre morceau plus intéressants! Pour ce faire on peut modifier les sons de synthétiseur utilisés. Le synthè par défaut de Sonic Pi s'appelle `beep`.
 
-To use a different synth, you need to add the code `use_synth :name of synth` above the sequence of code you want to use it in.
+Pour utiliser un synth différent, vous aurez besoin d'ajouter le code `use_synth :nom du synthé` avant la séquence de code où vous souhaitez l'utiliser.
 
-In this example, `fm` is the name of the synth:
+Pour cet exemple, `fm` est le nom du synth:
 
 ```ruby
 use_synth :fm
@@ -157,17 +157,17 @@ use_synth :fm
 end
 ```
 
-### Synths to try
+### Synthés à tester
 
-There are lots of cool-sounding synths included with Sonic Pi. To find the names of them, click on the **help** icon at the top of the screen so that the help documents window appears. Then select **Synths** from the tabs along the left hand side of the help window. Click on any of the synth names to get more information on how to use it.
+Il y a beaucoup de synth qui sonnent bien inclus dans Sonic Pi. Pour trouver leurs noms, cliquez sur l'icône **help** en haut de l'écrant pour que la fênetre d'aide apparaisse. Ensuite selectionnez **Synths** des onglets qui se trouve en gauche de la fenêtre d'aide. Cliquez sur n'importe quel nom de synthé pour avoir plus d'information sur comment l'utiliser.
 
-## Use samples
+## Utilisez des exemples
 
-Not only can you create music in Sonic Pi using single notes, you can also create music with samples. Samples are pre-recorded sounds or tunes that you can bring into your music. This is a really simple way to make your music sound amazing!
+Non seulement vous pouvez créer votre musique sur Sonic Pi en utilisant des notes seules, mais vous pouvez également créer votre musique avec des exemples. Les exemples sont pré enregistrés sons ou morceau que vous pouvez utiliser dans votre musique. Cela est une façon très simple pour que votre musique soit super!
 
-To use a sample, you need to add the code `sample :name of sample` in the sequence of your music program where you want it to play.
+Pour utiliser un exemple, vous aurez besoin d'ajouter le code `sample :nom de l'exemple` dans la séquence de votre programme de musique à l'endroit où vous souhaitez que ça se joue.
 
-In this example, `loop_amen` is the name of the sample:
+Dans cet exemple, `loop_amen` est le nom de l'exemple:
 
 ```ruby
 2.times do
@@ -176,7 +176,7 @@ In this example, `loop_amen` is the name of the sample:
 end
 ```
 
-### Samples to try
+### Exemples à essayer
 
 There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it. 
 
