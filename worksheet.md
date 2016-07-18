@@ -178,11 +178,11 @@ end
 
 ### Exemples à essayer
 
-There are lots of samples included with Sonic Pi. To find the names of them, click on **help** followed by **samples** on the left hand side of the help window. Click on any of the sample names to get more information on how to use it. 
+Il y a beaucoup d'exemples qui sont inclus dans Sonic Pi. Pour trouver leurs noms, cliquez sur **help** et ensuite **samples** en haut de la partie gauche de la fenêtre d'aide. Cliquez sur n'importe quel nom d'exemple pour avoir plus d'information sur comment l'utiliser. 
 
-## Playing two tunes at the same time
+## Jouer deux morceaux en même temps
 
-Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
+La musique a souvent un morceau qui Music often has a repeating backing track, with a separate melody played over the top. So far in Sonic Pi you have played one tune. Let's try playing two tunes at the same time!
 
 
 1. Click on a new workspace tab.
