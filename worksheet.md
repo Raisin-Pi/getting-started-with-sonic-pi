@@ -245,4 +245,4 @@ Sonic Pi a été développé pour être une plate-forme pour le codage en direct
 
 ## Explorez plus de fonctionnalités de Sonic Pi
 
-Sonic Pi offre beaucoup plus de fonctionnalités à la fois des codeurs et des musiciens. Si vous voulez essayer quelques fonctionnalités supplémentaires, passer à [the next tutorial here](worksheet-2.md)
+Sonic Pi offre beaucoup plus de fonctionnalités à la fois des codeurs et des musiciens. Si vous voulez essayer quelques fonctionnalités supplémentaires, passer à la [feuille de travail suivante](worksheet-2.md)
