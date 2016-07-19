@@ -1,10 +1,10 @@
-# Taking Sonic Pi Further
+# Pour aller plus loin avec Sonic Pi
 
-Sonic Pi is so awesome that there are too many features to mention in just one tutorial! If you feel like you have got to grips with the [first page](worksheet.md), and you would like to try some other ways to code music, then follow the steps below.
+Sonic Pi est tellement cool que c'est compliqué de tout voir dans une seule séance! Si vous sentez que vous avez maîtrisé la [première séance](worksheet.md), et vous aimeriez essayer des nouvelles façons pour coder de la musique, suivez les étapes ci-dessous.
 
-## Adding effects
+## Ajouter des effets
 
-Modern synthesizers have the ability to add effects to sounds. Sonic Pi is no different: you are able to add studio effects such as reverb, echo and distortion. Of course you have to use code to add the effects!
+Les synthesizeurs moderns sont capable d'ajouter des effets de sons. Sonic Pi ne différe pas: vous pouvez ajouter des effets de studio comme des réverbérations, des échos et des distortions. Vous devez bien sûr utiliser du code pour ajouter ces effets!
 
 1. In a new worksheet find a sample that you like, for example `sample :guit_e_fifths`
 
