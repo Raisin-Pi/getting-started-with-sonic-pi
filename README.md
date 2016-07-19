@@ -32,10 +32,10 @@ Il n’y a pas de logiciels supplémentaires à installer de plus que ce qui est
 
 ## Worksheet
 
-Vous allez avoir besoin des pages suivantes pour commencer :
+Vous aurez besoin des pages suivantes pour commencer :
 
-- [Feuille de travail](worksheet.md)
-- [La deuxième feuille de travail](worksheet-2.md)
+- [Première feuille de travail](worksheet.md)
+- [Pour allez plus loin](worksheet-2.md)
 
 ## Licence
 
