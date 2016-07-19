@@ -6,9 +6,9 @@ Sonic Pi est tellement cool que c'est compliqué de tout voir dans une seule sé
 
 Les synthesizeurs moderns sont capable d'ajouter des effets de sons. Sonic Pi ne différe pas: vous pouvez ajouter des effets de studio comme des réverbérations, des échos et des distortions. Vous devez bien sûr utiliser du code pour ajouter ces effets!
 
-1. In a new worksheet find a sample that you like, for example `sample :guit_e_fifths`
+1. Dans une nouvelle feuille de travail, trouvez un exemple que vous aimez, par exemple `sample :guit_e_fifths`
 
-1. Wrap the sample in an effects block like this:
+1. Mettez l'exemple à l'interieur d'un bloc d'effet comme suit:
     
     ```ruby
     with_fx :reverb do
@@ -16,7 +16,7 @@ Les synthesizeurs moderns sont capable d'ajouter des effets de sons. Sonic Pi ne
     end
     ```
     
-1. You can add effects on top of effects like this:
+1. Vous pouvez ajouter des effets sur le dessus des autres effets comme suit:
 
     ```ruby
     with_fx :reverb do
@@ -26,34 +26,34 @@ Les synthesizeurs moderns sont capable d'ajouter des effets de sons. Sonic Pi ne
     end
     ```
     
-1. Play around with some effects and add them to your music. Remember that a complete list of effects can be found in the help section of Sonic Pi under **FX**.
+1. Jouez et testez les différents effets et ajoutez-les dans votre musique. Souvenez-vous que une liste complète d'effets peut être trouvée dans la section de l'aide de Sonic Pi sous **FX**.
 
-## Modifying Parameters
+## Modifier des paramètres
 
-On occasion, you might like to make sounds play for a longer time or at a different rate. This can be achieved easily by modifying the parameters of the code you are using.
+De temps en temps, vous pourriez aimer de faire un son durer plus longtemps ou changer son tempo. Cela peut être fait facilement en modifiant les paramètres du code que vous utilisez.
 
-Take `play 60`, for example.
+Allons voir l'exemple de `play 60`.
 
-1. Click on **help** to open the help documents, then select **lang** on the left hand side, and scroll down to **play**. You will see some examples of its use. So far you have used `play` without any parameters; let's use some now.
-1. In a new worksheet type:
+1. Cliquez sur **help** pour ouvrir le document d'aide, sélectionnez ensuite **lang** sur la gauche de l'écran, et descendez jusqu'à **play**. Vous allez voir quelques exemples de son usage. Jusqu'ici vous avez utilisé `play` sans ajouter aucun paramètre; allons utiliser quelques-uns maintenant.
+1. Dans une nouvelle feuille de travail, écrivez:
 
     ```ruby
     play 60, attack: 1, release: 3
     ```
     
-1. Press the **play** button to hear how that one note sounds. Attack and release control the amplitude of a note over time.
+1. Cliquez sur le bouton **play** pour écouter comment cette note sonne. Attaquez and relachez l'amplitude de la note au fil du temps.
 
-1. Now change the values for attack and release to see how those parameters affect the note.
+1. Maintenant changez les valeurs de l'attaque et relache pour voir comment ces paramètres affectent la note.
 
-There are lots of parameters that can also change the way samples or synths sound. Try changing the values for `cutoff:`, `pan:`, `rate:` or `amp:`. 
+Il y a beaucoup de paramètres qui peuvent aussi changer la façon dont les exemples et les synthés sonnent.Essayez de changer les valeurs de `cutoff:`, `pan:`, `rate:` or `amp:`. 
 
-For a full list of parameters for each sample, click on the **Help** icon, followed by **Samples**. Select a sample and scroll down to see a full explanation for each type of parameter that can be used with that sample. The same applies for synths!
+Pour avoir une liste complète de paramètres pour chaque exemple, cliquez sur l'icône **Help**, et ensuite **Samples**. Sélectionnez un exemple et faitez défiler le texte pour voir une explication complète pour chaque type de paramètre qui peut être utilisé avec un exemple. Vous pouvez faire la même chose pour les synthés!
 
-## Using rrand
+## Utilisez la fonction rrand
 
-Sonic Pi includes a number of functions that can add more interesting elements to your music. A really fun function is `rrand`, which will return a value between two specified numbers. For a cool effect, use `rrand` to make the cutoff bounce around.
+Sonic Pi inclut un certain nombre de fonctions qui peuvent ajouter des éléments encore plus intéressants dans votre musique. Une fonctionne très cool c'est le `rrand`, qui va retourner une valeur entre deux chiffres spécifiques. Pour faire un effet cool, utilisez `rrand` pour faire rebondir le cutoff.
 
-1. In a blank worksheet type:
+1. Dans une nouvelle feuille de travail, écrivez:
 
     ```ruby
     loop do
@@ -62,7 +62,7 @@ Sonic Pi includes a number of functions that can add more interesting elements t
     end
     ```
     
-1. Instead of passing  a number like `80` to the cutoff value, try `rrand(40, 120)` like this:
+1. Au lieu de passer d'un chiffre comme `80` à la valuer de cutoff, essayez `rrand(40, 120)` comme suit:
 
     ```ruby
     loop do
@@ -71,9 +71,9 @@ Sonic Pi includes a number of functions that can add more interesting elements t
     end
     ```
     
-1. Then you can start to experiment using `rrand` with other parameters. For example, add `pan: rrand(-1, 1)` to the play chord line and then press **play**.    
+1. Ensuite vous pouvez commencer à faire des essais en utilisant `rrand` avec d'autres paramètres. Par exemple, ajoutez `pan: rrand(-1, 1)` pour jouer la ligne d'accord et ensuite cliquez sur **play**.    
 
-## What next?
-- Can you make your own samples and import them into Sonic Pi?
+## Pour allez encore plus loin?
+- Vous pouvez faire vos propres exemples et les importer dans Sonic Pi?
 - Why not take a look at the [Sonic Pi Competition resource](http://www.raspberrypi.org/learning/sonic-pi-competition-2014/) and plan your submission for next year?
-- Can you create a full original composition and share it with friends?
+- Vous pouvez créer une composition complète et originale et la partager avec vos amis?
