@@ -75,5 +75,4 @@ Sonic Pi inclut un certain nombre de fonctions qui peuvent ajouter des élément
 
 ## Pour allez encore plus loin?
 - Vous pouvez faire vos propres exemples et les importer dans Sonic Pi?
-- Why not take a look at the [Sonic Pi Competition resource](http://www.raspberrypi.org/learning/sonic-pi-competition-2014/) and plan your submission for next year?
 - Vous pouvez créer une composition complète et originale et la partager avec vos amis?
