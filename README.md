@@ -45,4 +45,4 @@ Sauf autres précisions, tout ce qui se trouve dans cet répertoire est couvert 
 
 ***Demarrer avec Sonic Pi v2.0*** par [Sam Aaron](https://github.com/samaaron) et la [Fondation Raspberry Pi](http://www.raspberrypi.org) est crée sous une licence [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Basé sur le matériel disponible à : https://github.com/raspberrypilearning/sonic-pi-2-taster
+D'après un travail paru sur https://github.com/raspberrypilearning/sonic-pi-2-taster fait par Charlie Guillot et Melpomeni Papadopoulou pour le projet [D-Clics Numériques](http://d-clicsnumeriques.org/) 
