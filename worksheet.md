@@ -1,16 +1,16 @@
 # Débutez avec Sonic Pi 2
 
-Avez-vous déjà eu l'envie de faire de la musique funky comme Daft Punk ou Will.I.Am mais vous ne savez pas comment tenir un cello, et le laisser jouer tout seul ? Avec Sonic Pi, vous allez y arriver.
+Avez-vous déjà eu l'envie de faire de la musique funky comme Daft Punk ou Will.I.Am mais vous ne savez pas comment tenir un violoncelle, ou le faire jouer tout seul ? Avec Sonic Pi, vous allez y arriver.
 
 ## Premiers sons avec Sonic Pi
 
 ![](images/interface1.png)
 
-Cela est l'interface de Sonic Pi ; il a trois fênetres principales. La plus grande est celle où vous écrivez le code et on l'appelle le Tableau de Programme. Il y a aussi un tableau de sortie qui affiche l'information sur le programme qui se joue. Quand vous cliquez sur le bouton **aide** qui se trouve en haut de votre fênetre, le troisième tableau s'affiche ainsi que le bouton de la documentation d'aide. Cela contient de l'information sur les différents codes pour que vous puissiez l'essayer et l'utiliser, ainsi que les différents sons de synthé, samples et beaucoup plus.
+Cela est l'interface de Sonic Pi ; il a trois fenêtres principales. La plus grande est celle où vous écrivez le code et on l'appelle le Tableau de Programme. Il y a aussi un tableau de sortie qui affiche l'information sur le programme qui se joue. Quand vous cliquez sur le bouton **aide** qui se trouve en haut de votre fenêtre, le troisième tableau s'affiche ainsi que le bouton de la documentation d'aide. Cela contient de l'information sur les différents codes pour que vous puissiez l'essayer et l'utiliser, ainsi que les différents sons de synthé, samples et beaucoup plus.
 
-1. Lancer Sonic Pi de votre bureau ou de menu d'applications.
+1. Lancez Sonic Pi de votre bureau ou de menu d'applications.
 
-2. Selectionnez **Workspace 1** et écrire:
+2. Sélectionnez **Workspace 1** et écrire:
 
 	```ruby
 	play 60
@@ -20,7 +20,7 @@ Cela est l'interface de Sonic Pi ; il a trois fênetres principales. La plus gra
 
 4. Qu'est-ce qui se passe quand vous tapez `pley 60` et cliquez sur l'icône play ?
 
-	CC'est un exemple d'un bug du code. Dans les activités suivantes, si le tableau de l'erreur s'affiche vous saurez qu'il y a un bug que vous allez devoir le réparer. Cela peut vouloir dire que vous avez mal écrit le mot `play`.
+	C'est un exemple d'un bug du code. Dans les activités suivantes, si le tableau de l'erreur s'affiche vous saurez qu'il y a un bug que vous allez devoir le réparer. Cela peut vouloir dire que vous avez mal écrit le mot `play`.
 
 5. Maintenant écrivez:
 
@@ -39,7 +39,7 @@ Cela est l'interface de Sonic Pi ; il a trois fênetres principales. La plus gra
 	```ruby
 	sleep 1
 	```
-	La valeur entrée après chaque mot `sleep` représente le temps en secondes. La valeur 1 représente une seconde. Qu'est-ce que vous écririez pour une demi seconde ?
+	La valeur entrée après chaque mot `sleep` représente le temps en secondes. La valeur 1 représente une seconde. Qu'est-ce que vous écririez pour une demi-seconde ?
 
 8. Maintenant écrivez une séquence de play et sleep pour composer une musique cool!
 
@@ -47,7 +47,7 @@ Cela est l'interface de Sonic Pi ; il a trois fênetres principales. La plus gra
 
 Maintenant que vous avez compris les bases de Sonic Pi, allons coder une chanson !
 
-1. Selectionner **Workspace 2**.
+1. Sélectionnez **Workspace 2**.
 
 2. Ecrivez le code suivant:
 
@@ -66,7 +66,7 @@ Maintenant que vous avez compris les bases de Sonic Pi, allons coder une chanson
 
 	*Réponse: Frère Jacques!*
 
-    Cette première partie doit se répéter. Comment on peut faire cela ? Vous pourriez écrire cette partie une deuxième fois, ou vous pouvez commencez à utiliser la fonction "boucle" dans votre code.
+    Cette première partie doit se répéter. Comment on peut faire cela ? Vous pourriez écrire cette partie une deuxième fois, ou vous pouvez commencer à utiliser la fonction "boucle" dans votre code.
 
 4. Au début de votre code, avant le premier `play 60`, écrivez:
 
@@ -80,11 +80,11 @@ Maintenant que vous avez compris les bases de Sonic Pi, allons coder une chanson
     end
     ```
 
-6. Clicquez sur l'icône play en haut de l'écran. Qu'est-ce qui se passe ?
+6. Cliquez sur l'icône play en haut de l'écran. Qu'est-ce qui se passe ?
 
     Allons jouer cette partie sur Sonic Pi.
 
-    Dans l'exemple ci-dessous, vous pouvez voir que quelques lignes de code sont découpése. Cela rend le code plus facile à lire, et permet de vérifier s'il y a des bugs quand on clique sur play. Vous pouvez appuyer sur la barre d'espace deux fois pour découper une ligne de code.
+    Dans l'exemple ci-dessous, vous pouvez voir que quelques lignes de code sont découpées. Cela rend le code plus facile à lire, et permet de vérifier s'il y a des bugs quand on clique sur play. Vous pouvez appuyer sur la barre d'espace deux fois pour découper une ligne de code.
 
     ```ruby
     2.times do
@@ -113,7 +113,7 @@ end
     
 ## Notes MIDI et notes de musique
 
-Les chiffres que vous écriviez après le mot `play` representent des notes; en effet, ce sont des chiffres de notes MIDI. Cela veut dire que nous pouvons traduire des chansons jouées sur un piano en Sonic Pi en utilisant un tableau comme celui-ci:
+Les chiffres que vous écriviez après le mot `play` représentent des notes; en effet, ce sont des chiffres de notes MIDI. Cela veut dire que nous pouvons traduire des chansons jouées sur un piano en Sonic Pi en utilisant un tableau comme celui-ci:
 
 `C D E C` ou `60 62 64 60` en notes MIDI.
 
@@ -139,7 +139,7 @@ C'est une démarche assez longue si vous connaissez les notes de la chanson que 
 	```
 1. Cliquez sur **play** pour écouter votre morceau. Est-ce que ça sonne pareil que quand vous avez utilisé des notes MIDI ?	
 
-## Modifierer les sons
+## Modifier les sons
 
 C'est le moment pour vous de faire un morceau plus intéressant ! Pour ce faire, on peut modifier les sons de synthétiseur utilisés. Le synthé par défaut de Sonic Pi s'appelle `beep`.
 
@@ -159,7 +159,7 @@ end
 
 ### Synthés à tester
 
-Il y a beaucoup de synthés qui sonnent bien, inclus dans Sonic Pi. Pour trouver leurs noms, cliquez sur l'icône **help** en haut de l'écrant pour que la fênetre d'aide apparaisse. Ensuite, sélectionnez **Synths** dans les onglets qui se trouvent en gauche de la fenêtre d'aide. Cliquez sur n'importe quel nom de synthé pour avoir plus d'information sur comment l'utiliser.
+Il y a beaucoup de synthés qui sonnent bien, inclus dans Sonic Pi. Pour trouver leurs noms, cliquez sur l'icône **help** en haut de l'écran pour que la fenêtre d'aide apparaisse. Ensuite, sélectionnez **Synths** dans les onglets qui se trouvent en gauche de la fenêtre d'aide. Cliquez sur n'importe quel nom de synthé pour avoir plus d'information sur comment l'utiliser.
 
 ## Utilisez des exemples
 
@@ -214,7 +214,7 @@ La musique a souvent une piste d'accompagnement répétitif, avec une mélodie d
       end
     end 
     ```
-5. Appuyez maintenant sur  **play** and you should hear both threads playing at the same tet vous devriez entendre les deux fils qui jouent en même temps.     
+5. Appuyez maintenant sur  **play** etvous devriez entendre les deux fils qui jouent en même temps.     
 
 ## Code en direct !
 
@@ -245,4 +245,4 @@ Sonic Pi a été développé pour être une plate-forme pour le codage en direct
 
 ## Explorez plus de fonctionnalités de Sonic Pi
 
-Sonic Pi offre beaucoup plus de fonctionnalités à la fois des codeurs et des musiciens. Si vous voulez essayer quelques fonctionnalités supplémentaires, passer à la [feuille de travail suivante](worksheet-2.md)
+Sonic Pi offre beaucoup plus de fonctionnalités à la fois des codeurs et des musiciens. Si vous voulez essayer quelques fonctionnalités supplémentaires, passez à la [feuille de travail suivante](worksheet-2.md)
