@@ -4,11 +4,11 @@ Sonic Pi est tellement cool que c'est compliqué de tout voir dans une seule sé
 
 ## Ajouter des effets
 
-Les nouveaux synthesiseurs sont capables d'ajouter des effets sonores. Sonic Pi le peut aussi: vous pouvez ajouter des effets de studio comme des réverbérations, des échos et des distortions. Vous devez, bien sûr, utiliser du code pour ajouter ces effets!
+Les nouveaux synthétiseurs sont capables d'ajouter des effets sonores. Sonic Pi le peut aussi: vous pouvez ajouter des effets de studio comme des réverbérations, des échos et des distorsions. Vous devez, bien sûr, utiliser du code pour ajouter ces effets!
 
 1. Dans une nouvelle feuille de travail, trouvez un exemple que vous aimez, par exemple `sample :guit_e_fifths`
 
-1. Mettez l'exemple à l'interieur d'un bloc d'effet comme suit:
+1. Mettez l'exemple à l'intérieur d'un bloc d'effet comme suit:
     
     ```ruby
     with_fx :reverb do
@@ -16,7 +16,7 @@ Les nouveaux synthesiseurs sont capables d'ajouter des effets sonores. Sonic Pi 
     end
     ```
     
-1. Vous pouvez ajouter des effets par dessus des autres effets comme suit:
+1. Vous pouvez ajouter des effets par-dessus d'autres effets comme suit:
 
     ```ruby
     with_fx :reverb do
@@ -41,17 +41,17 @@ Voyons l'exemple de `play 60`.
     play 60, attack: 1, release: 3
     ```
     
-1. Cliquez sur le bouton **play** pour écouter comment cette note sonne. Attaquez and relachez l'amplitude de la note au fil du temps.
+1. Cliquez sur le bouton **play** pour écouter comment cette note sonne. Attaquez and relâchez l'amplitude de la note au fil du temps.
 
 1. Maintenant changez les valeurs de l'attaque et de la relache pour voir comment ces paramètres affectent la note.
 
-Il y a beaucoup de paramètres qui peuvent aussi changer la façon dont les exemples et les synthés sonnent.Essayez de changer les valeurs de `cutoff:`, `pan:`, `rate:` or `amp:`. 
+Il y a beaucoup de paramètres qui peuvent aussi changer la façon dont les exemples et les synthés sonnent. Essayez de changer les valeurs de `cutoff:`, `pan:`, `rate:` or `amp:`. 
 
-Pour avoir une liste complète de paramètres pour chaque exemple, cliquez sur l'icône **Help**, et ensuite **Samples**. Sélectionnez un exemple et faitez défiler le texte pour voir une explication complète pour chaque type de paramètre qui peut être utilisé avec un exemple. Vous pouvez faire la même chose pour les synthés!
+Pour avoir une liste complète de paramètres pour chaque exemple, cliquez sur l'icône **Help**, et ensuite **Samples**. Sélectionnez un exemple et faites défiler le texte pour voir une explication complète pour chaque type de paramètre qui peut être utilisé avec un exemple. Vous pouvez faire la même chose pour les synthés!
 
 ## Utilisez la fonction rrand
 
-Sonic Pi inclut un certain nombre de fonctions qui peuvent ajouter des éléments encore plus intéressants dans votre musique. Une fonctionne fun c'est le `rrand`, qui va retourner une valeur entre deux chiffres spécifiques. Pour faire un effet cool, utilisez `rrand` pour faire rebondir le cutoff.
+Sonic Pi inclut un certain nombre de fonctions qui peuvent ajouter des éléments encore plus intéressants dans votre musique. Une fonctionne fun c'est le `rrand`, qui va retourner une valeur entre deux chiffres spécifiques. Pour faire un effet cool, utilisez `rrand` pour faire rebondir le cut off.
 
 1. Dans une nouvelle feuille de travail, écrivez:
 
@@ -62,7 +62,7 @@ Sonic Pi inclut un certain nombre de fonctions qui peuvent ajouter des élément
     end
     ```
     
-1. Au lieu d'utiliser un chiffre comme `80` à la valuer de cutoff, essayez `rrand(40, 120)` comme suit:
+1. Au lieu d'utiliser un chiffre comme `80` à la valeur de cut off, essayez `rrand(40, 120)` comme suit:
 
     ```ruby
     loop do
